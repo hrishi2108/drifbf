@@ -40,9 +40,3 @@ Deployed Link :
 - **Routing:** React Router DOM
 - **HTTP Client:** Axios
 
----
-
-
-
-   ```bash
-   cd backend
