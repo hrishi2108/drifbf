@@ -1,0 +1,11 @@
+.logs-root { max-width: 1100px; margin: 0 auto; }
+.table-wrap { background: var(--card); padding: 12px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.04); }
+.logs-table { width: 100%; border-collapse: collapse; }
+.logs-table th, .logs-table td { text-align: left; padding: 10px; border-bottom: 1px solid #eee; vertical-align: top; }
+.message-cell { max-width: 380px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.status { padding: 6px 8px; border-radius: 6px; color: #fff; font-weight: 600; font-size: 12px; display: inline-block; }
+.status-success { background: var(--success); }
+.status-failure { background: var(--failure); }
+.status-warning { background: var(--warning); }
+.btn-secondary { background: transparent; border: 1px solid #ccc; padding: 6px 10px; border-radius: 6px; }
+.log-detail .card { background: var(--card); padding: 12px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.04); }

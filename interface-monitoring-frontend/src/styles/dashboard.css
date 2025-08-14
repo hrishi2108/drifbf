@@ -1,0 +1,19 @@
+.dashboard-root { max-width: 1100px; margin: 0 auto; }
+.dashboard-top { display:flex; justify-content:space-between; align-items:center; gap:16px; }
+.summary-grid {
+  display:flex;
+  gap:12px;
+  margin-top: 14px;
+}
+.summary-card {
+  background: var(--card);
+  padding: 16px;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.summary-title { color: var(--muted); font-size: 13px; }
+.summary-value { font-size: 24px; font-weight: 700; margin-top: 6px; }
+.summary-card.success .summary-value { color: var(--success); }
+.summary-card.failure .summary-value { color: var(--failure); }
+.summary-card.warning .summary-value { color: var(--warning); }

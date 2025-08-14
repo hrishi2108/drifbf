@@ -1,0 +1,26 @@
+.app-header {
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 12px 0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+}
+.app-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand-link {
+  font-weight: 700;
+  font-size: 18px;
+}
+.app-header nav a {
+  margin-left: 14px;
+  color: #333;
+}
+.app-header .add-link {
+  background: #222;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-left: 18px;
+}
